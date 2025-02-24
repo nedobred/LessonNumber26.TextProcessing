@@ -22,7 +22,7 @@ int main()
     std::cout << "Введите строку не более 20 символов: " << std::endl;
     char string[21];
     fgets(string, sizeof(string), stdin);
-    
+
     std::cout << "\nВы ввели следующую строку" << std::endl;
     for (int i = 0; i < strlen(string); i++)
     {

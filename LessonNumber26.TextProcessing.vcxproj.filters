@@ -24,6 +24,9 @@
     <ClCompile Include="Task 3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Task 5.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
     <ClCompile Include="Task 4.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
