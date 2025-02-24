@@ -3,11 +3,11 @@
 
 #include <iostream>
 
-char DelSymbol(char str[], int symbol)
+char DelSymbol(char str[], int index)
 {
     for (int i = 1; i < strlen(str); i++)
     {
-        if (i == symbol)
+        if (i == index)
         {
             str[i] = str[i + 1];
         }
@@ -27,7 +27,7 @@ int main()
         std::cout << "\n[" << i << "] \t" << string[i] << std::endl;
     }
 
-    std::cout << "Укажите символ который требуется удалить: "; 
+    std::cout << "Укажите номер символа который требуется удалить: "; 
     int number;
     std::cin >> number;
 
