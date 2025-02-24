@@ -36,4 +36,6 @@ int main()
     int counter{0}; // счетчик количества повторов символа
 
     std::cout << "Количество повторений символа " << str << " составляет: " << SumSymbol(string, str, counter) << std::endl;
+
+    return 0;
 }

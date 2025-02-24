@@ -39,4 +39,5 @@ int main()
     {
         std::cout << "\n[" << i << "] \t" << string[i] << std::endl;
     }
+    return 0;
 }

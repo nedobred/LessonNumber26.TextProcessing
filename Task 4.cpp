@@ -36,4 +36,6 @@ int main()
     {
         std::cout << string[i];
     }
+
+    return 0;
 }
